@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entites Version="2.0.0.0">
+  <Entite Nom="NOM SOCIETE" ProfileTse="\\serveur\profilsTSE$\%login%" NomComplet="%SOCIETE% %NOM% %PRENOM% (%APPARTENANCE%)" Password="password+1" NE="False" LoginScript="logonscript.vbs">
+    <Site Nom="SITE001" OU="LDAP://OU=Users,OU=SITE001,OU=STE01,DC=DOMAINE,DC=COM" Ville="AIX" SRV="serveur" SRVPartage="users$" SRVRepertoire="" SRVLecteur="P:">
+      <GroupeGroupe Nom="GROUPE001"/>
+      <GroupeGroupe Nom="GROUPE002"/>
+      <GroupeExterieur Nom="GROUPEEXT001"/>
+      <GroupeExterieur Nom="GROUPE002"/>
+      <BanqueGroupe ID="1"/>
+    </Site>
+    <Site Nom="SITE002" OU="LDAP://OU=Users,OU=SITE002,OU=STE01,DC=DOMAINE,DC=COM" Ville="TOULON" SRV="serveur001" SRVPartage="users$" SRVRepertoire="" SRVLecteur="P:">
+      <GroupeGroupe Nom="GROUPE003"/>
+      <GroupeGroupe Nom="GROUPE002"/>
+      <GroupeExterieur Nom="GROUPEEXT001"/>
+      <GroupeExterieur Nom="GROUPE002"/>
+      <BanqueGroupe ID="1"/>
+    </Site>
+  </Entite>
+  <Entite Nom="NOM SOCIETE AUTRE" ProfileTse="\\serveur\profilsTSE$\%login%" NomComplet="%SOCIETE% %NOM% %Prenom% (%APPARTENANCE%)" Password="password+1" NE="False" LoginScript="logonscript.vbs">
+    <Site Nom="SITE001" OU="LDAP://OU=Users,OU=SITE001,OU=STE02,DC=DOMAINE,DC=COM" Ville="AIX" SRV="serveur" SRVPartage="users$" SRVRepertoire="" SRVLecteur="P:">
+      <GroupeGroupe Nom="GROUPE001"/>
+      <GroupeGroupe Nom="GROUPE002"/>
+      <GroupeExterieur Nom="GROUPEEXT001"/>
+      <GroupeExterieur Nom="GROUPE002"/>
+      <BanqueGroupe ID="1"/>
+    </Site>
+  </Entite>
+</Entites>

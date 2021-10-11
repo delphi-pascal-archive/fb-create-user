@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Banques Version="1.0.0.0">
+  <Banque ID="1" Nom="BANQUE EXCHANGE 0001" Chemin="CN=BANQUE EXCHANGE 0001,CN=SERVEUR SG1,CN=InformationStore,CN=SERVEUR,CN=Servers,CN=Groupe_administration_001,CN=Administrative Groups,CN=CORPMAIL,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=domaine,DC=com"/>
+  <Banque ID="2" Nom="BANQUE EXCHANGE 0002" Chemin="CN=BANQUE EXCHANGE 0002,CN=SERVEUR SG1,CN=InformationStore,CN=SERVEUR,CN=Servers,CN=Groupe_administration_001,CN=Administrative Groups,CN=CORPMAIL,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=domaine,DC=com"/>
+</Banques>
